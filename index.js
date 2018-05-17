@@ -1,7 +1,7 @@
-import axios from 'axios';
-import queryString from 'query-string';
+const axios = require('axios');
+const queryString = require('query-string');
 
-export default function (url, data, config) {
+module.exports = function (url, data, config) {
     config = config || {};
     config.headers = Object.assign({}, config.headers, {
         'content-type': 'application/x-www-form-urlencoded'

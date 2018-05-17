@@ -1,8 +1,12 @@
 {
   "name": "axios-form",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "send form post for node by using axios",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heerake/axios-form.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +22,8 @@
     "@types/query-string": "^5.1.0",
     "axios": "^0.18.0",
     "query-string": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0"
   }
 }
