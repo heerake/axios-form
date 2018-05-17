@@ -1,0 +1,22 @@
+{
+  "name": "axios-form",
+  "version": "0.0.1",
+  "description": "send form post for node by using axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "axios",
+    "post",
+    "form",
+    "node"
+  ],
+  "author": "heerake",
+  "license": "MIT",
+  "dependencies": {
+    "@types/query-string": "^5.1.0",
+    "axios": "^0.18.0",
+    "query-string": "^6.1.0"
+  }
+}
